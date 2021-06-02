@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "shaypi/python-app
+    registry = "shaypi/python-app"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
